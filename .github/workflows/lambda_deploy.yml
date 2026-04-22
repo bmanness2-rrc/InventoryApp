@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'lambda/get_all_inventory_items/lambda_function.py'
+      - 'lambda/**'
 
 jobs:
   deploy:
